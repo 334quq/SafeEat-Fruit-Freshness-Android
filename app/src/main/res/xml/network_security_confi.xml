@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Public portfolio default: do not whitelist a private model server IP.
+         For local HTTP testing only, add your own debug-only domain/IP here. -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

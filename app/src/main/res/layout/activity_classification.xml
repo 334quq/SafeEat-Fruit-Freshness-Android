@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFD72E"
+    tools:context=".classification">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:text="Food Scanning" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/image"
+        android:contentDescription="Selected Image" />
+
+    <TextView
+        android:id="@+id/classtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:background="@drawable/image"
+        android:fontFamily="@font/acme"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/continuebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/acme"
+        android:text="Continue"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+</RelativeLayout>

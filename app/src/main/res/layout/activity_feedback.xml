@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFD72E"
+    tools:context=".feedback">
+
+    <TextView
+        android:id="@+id/textFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:text="Feedback" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/upload_back"
+        android:fontFamily="@font/acme"
+        android:text="Choose Image"
+        android:paddingLeft="50dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/forgotConPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:paddingBottom="340dp"
+        android:background="@drawable/feedback_back"
+        android:fontFamily="@font/acme"
+        android:paddingRight="20dp"
+        android:hint="#Type your Feedback"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/sendFeedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/acme"
+        android:text="Send Feedback"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+</RelativeLayout>

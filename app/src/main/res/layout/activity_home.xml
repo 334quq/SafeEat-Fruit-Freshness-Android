@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:text="Hi," />
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/close"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Log Out" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/background"
+        />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:text="Today's Knowledge" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/photoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/acme"
+        android:text="Take Photo"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/feedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/acme"
+        android:text="Feedback"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>

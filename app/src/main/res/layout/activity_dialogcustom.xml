@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:background="#EF3349"
+    android:padding="16dp">
+
+    <!-- Your custom dialog content -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This food is Unsafe"
+        android:textSize="40sp"
+        android:fontFamily="@font/acme"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reset_button"
+        android:fontFamily="@font/acme"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Continue"
+        android:onClick="onCustomDialogButtonClick" />
+
+</LinearLayout>

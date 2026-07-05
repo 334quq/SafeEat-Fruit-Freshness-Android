@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFD72E"
+    tools:context=".singin">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-12dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logo2"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="-69dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:text="Sign Up" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:background="@drawable/emailback"
+        android:fontFamily="@font/acme"
+        android:paddingRight="20dp"
+        android:longClickable="false"
+        android:hint="Username"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/signEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:background="@drawable/emailback"
+        android:fontFamily="@font/acme"
+        android:paddingRight="20dp"
+        android:longClickable="false"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/signPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:background="@drawable/emailback"
+        android:fontFamily="@font/acme"
+        android:paddingRight="20dp"
+        android:longClickable="false"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+
+    <ImageView
+        android:id="@+id/signPasswordVisibilityToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignEnd="@id/signPass"
+        android:src="@drawable/hide_pass"
+        android:contentDescription="Toggle password visibility" />
+
+    <EditText
+        android:id="@+id/signPassCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:background="@drawable/emailback"
+        android:fontFamily="@font/acme"
+        android:paddingRight="20dp"
+        android:longClickable="false"
+        android:hint="Confirm-Password"
+        android:inputType="textPassword"
+        />
+
+    <ImageView
+        android:id="@+id/conPasswordVisibilityToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignEnd="@id/signPassCon"
+        android:src="@drawable/hide_pass"
+        android:contentDescription="Toggle password visibility" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/acme"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="670dp"
+        android:fontFamily="@font/acme"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="Already have an account ?" />
+
+</RelativeLayout>
